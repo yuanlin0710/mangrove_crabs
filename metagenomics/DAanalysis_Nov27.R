@@ -254,23 +254,3 @@ for (row in 1:nrow(DErow)){
 write.csv(DErow,"DA_sigOnly_aldex2.csv")
 write.csv(glm.test,"DA_glmtest_all_aldex2.csv")
 
-
-
-
-rm(list=ls())
-
-
-
-
-
-
-
-
-
-# ancombc
-setwd("C:/Users/All users.DESKTOP-B09KNMV/Documents/FYP_lynn/metagenome analysis/merge_DEDAtable_from_SQM")
-all4DA<-read.csv("merged_table_DA.csv", row.names = "X.1")
-
-setwd("C:/Users/All users.DESKTOP-B09KNMV/Documents/FYP_lynn/metagenome analysis/DA/ancombc")
-
-
